@@ -1,6 +1,6 @@
 ## Community voor vragen, wijzigingsverzoeken en bug meldingen
 
-Voor het indienen van wijzigingsverzoeken, melden van bugs en het stellen van vragen kan gebruik worden gemaakt van een issue in de met de onderliggende StUF standaard gerelateerde repository (zie de link onderaan deze paragraaf). Bij wijzigingsverzoeken en bugs vragen we u de volgende zaken op te nemen:
+Voor het indienen van wijzigingsverzoeken, melden van bugs en het stellen van vragen kan je een issue aanmaken in de met de onderliggende StUF standaard gerelateerde repository (zie de links onderaan deze paragraaf). Bij wijzigingsverzoeken en bugs vragen we u de volgende zaken op te nemen:
 * Onderbouwing voor het wijzingsverzoek of bug
 * De eigen voorkeur qua oplossing, inclusief voor- en nadelen
 * Eventuele andere oplossingen inclusief voor en nadelen
