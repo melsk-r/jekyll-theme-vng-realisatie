@@ -1,4 +1,4 @@
-## Wanneer is een softwareproduct compliant 1
+## Wanneer is een softwareproduct compliant
 Een softwareproduct is compliant aan de Documentcreatie services 1.0 (*), indien aan alle onderstaande vijf eisen wordt voldaan:
 
 | Nr | Eis |
