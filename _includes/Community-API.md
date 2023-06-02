@@ -1,6 +1,6 @@
 ## Community voor vragen en bug meldingen
 
-Voor het melden van bugs en het stellen van vragen kan je een issue aanmaken in de met de onderliggende StUF standaard gerelateerde repository (zie de links onderaan deze paragraaf). Bij bugs vragen we u de volgende zaken op te nemen:
+Voor het melden van bugs en het stellen van vragen kan je een issue aanmaken in de met de {{ include.apinaam }} {{ include.versie-nr }} standaard gerelateerde repository (zie de links onderaan deze paragraaf). Bij bugs vragen we u de volgende zaken op te nemen:
 * Onderbouwing voor de bug
 * De eigen voorkeur qua oplossing, inclusief voor- en nadelen
 * Eventuele andere oplossingen inclusief voor en nadelen
