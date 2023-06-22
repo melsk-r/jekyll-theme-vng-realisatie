@@ -1,0 +1,61 @@
+$black: #000 !default;
+
+$primary: #ed4e1b !default;
+$theme-light-blue: #d9eaf1;
+$theme-blue: #00a9f3;
+$theme-dark-blue: #004c7d;
+$theme-mid-blue:#004c7d;
+$theme-color: #154273;
+
+$theme-yellow: #FFBC2C;
+
+
+$theme-blue-100: #00a9f3;
+$theme-blue-500: #01689b;
+$theme-blue-600: #004c7d;
+$theme-blue-675: #154273;
+
+// TODO: Probally want to rename these gray to gray-n (like bootstrap does)
+$theme-blue-gray: #d9ebf7;
+$theme-grayish:#e6e6e6;
+$theme-gray:#d8d8d8;
+$theme-dark-gray:#535353;
+$theme-darker-gray: #4e4e4e;
+$theme-uppermid-gray:#b4b4b4;
+$theme-mid-gray: #999;
+
+$body-bg: #f3f3f3 !default;
+$body-color: $black !default;
+
+$border-radius: 0 !default;
+$border-radius-lg: 0 !default;
+$border-radius-sm: 0 !default;
+
+// Anchor
+$link-color: $theme-blue-500 !default;
+$link-hover-color: $theme-blue-675 !default;
+
+// nav-anchor
+$nav-link-color: $theme-dark-blue !default;
+
+$input-placeholder-color: $black !default;
+
+$breadcrumb-bg: inherit !default;
+$breadcrumb-divider: quote(">") !default;
+$breadcrumb-divider-color: $black !default;
+$breadcrumb-active-color: $black !default;
+
+
+$line-height-base: 1.75 !default;
+$line-height-sm: 1.53 !default;
+
+$headings-line-height: 1.1 !default;
+$headings-line-height-md: 1.2381;
+
+$container-max-widths: (
+  sm: 768px,
+  md: 992px,
+  lg: 1180px,
+  xl: 1180px
+) !default;
+

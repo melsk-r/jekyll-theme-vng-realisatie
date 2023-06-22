@@ -1,0 +1,365 @@
+@import "variables";
+@import "bootstrap/bootstrap";
+@import "syntax-highlighting";
+
+/***
+    Root
+***/
+h1, h2, h3, h4 {
+    font-weight: $font-weight-bold;
+}
+
+h2, h3 {
+    line-height: $headings-line-height-md;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: $font-weight-bold;
+
+    &::after { 
+        content: "";
+        background: $theme-gray;
+        height: 1px;
+        width: 97px;
+        display: block;
+        margin-top: 20px;
+    }
+}
+
+h2 { 
+    margin: 30px 0 10px;
+    font-size: $font-size-base * 1.25;
+}
+
+h3 {
+    font-size: $font-size-base * 1.125;
+}
+
+h4 {
+    font-size: $font-size-base;
+}
+
+/***
+    Custom class
+***/
+.bg-light-blue {
+    background-color: $theme-light-blue;
+}
+
+.bg-blue {
+    background-color: $theme-blue;
+}
+
+.bg-yellow {
+    background-color: $theme-yellow;
+}
+.menu-icon::before {
+    content: "\e9bd";
+    font-family: 'icomoon' !important;
+}
+
+.nav-text-blue {
+    button { 
+        color: $theme-dark-blue
+    }
+}
+
+/***
+    Header 
+***/
+.main-header {
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        border-top: 1px solid #EEE;        
+    }
+
+    .navbar {
+        padding: 0;
+
+        .nav-link {
+            margin-left: 0;
+            padding: 35px 5px;
+            font-size: 20px;
+            color: $nav-link-color;
+            border-bottom: 5px solid transparent;
+    
+            &:hover, &:focus, &.active {
+                border-bottom: 5px solid $primary;
+                color: $nav-link-color;
+            }
+        }
+    
+        .navbar-brand {
+            margin-right: 60px;
+        }
+    }
+}
+
+header {
+    background-color: $white;
+    nav {
+        padding: 0;
+    }
+}
+
+.top-header {
+    height: 45px;
+}
+
+.search {
+    position: relative;
+
+    .form-control {
+        padding-right: 45px;
+        background-color: $body-bg;
+        height: 38px;
+        line-height: 38px;
+        border: 0px;
+
+        &:focus {
+            background: $body-bg;
+            border: none;
+            outline: none;
+            box-shadow: none;
+        }
+
+        &::placeholder {
+            color: $theme-mid-gray;
+            opacity: 1;
+        }
+    }
+
+    .btn-search {
+        display: inline-block;
+        // height: 38px;
+        // width: auto;
+        // line-height: 38px;
+        background-color: $theme-blue-gray;
+        color: #000;
+    
+        &:hover, &:active, &:focus {
+            background-color: $theme-blue-gray;
+            color: #000;
+        }
+    }
+
+    .form-actions {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        &::before {
+            position: absolute;
+            height: 38px;
+            line-height: 38px;
+            right: 20px;
+            font-size: 18px;
+        }
+
+        button {
+            width: 50px;
+            height: 38px;
+            z-index: 4;
+            position: relative;
+            opacity: .01;
+        }
+    }
+}
+
+.icon-search::before, .search .form-actions::before {
+    content: "\e986";
+    font-family: icomoon;
+    color: $theme-dark-blue;
+}
+
+.small-nav-header {
+    .navbar-nav {
+        flex-direction: row;
+
+        .nav-item {
+            width: 100%;
+        }
+
+        .nav-link {
+            color: $nav-link-color;
+            border-bottom: 3px solid transparent;
+    
+            &:hover, &:focus, &.active {
+                border-bottom: 3px solid $primary;
+                color: $nav-link-color;
+            }
+        }
+    }
+
+    .input-search {
+        padding-right: 50px;
+    }
+}
+
+.small-nav-footer {
+    .menu {
+        list-style: none;
+        display: flex;
+        padding-left: 0;
+        flex-wrap: wrap;
+
+        .menu-item {
+            font-size: 15px;
+            width: calc(50% - 19px);
+        }
+    }
+}
+
+
+/***
+    Breadcrumb
+***/
+.breadcrumb {
+    line-height: $line-height-sm;
+    position: relative;
+    padding: 15px;
+
+    a {
+        color: $black;
+        text-decoration: none;
+    }
+}
+
+/***
+    Page content
+***/
+.page-header-img {
+    padding: 0;
+    margin: 0 0 -215px 0;
+
+    img {
+        min-height: 215px;
+    }
+}
+
+aside { 
+    h2 {
+        color: $black;
+    }
+
+    &.layout-sidebar {
+        color: $theme-dark-gray;
+        padding: 40px 35px 0;
+    }
+}
+
+.page-content {
+    padding: 20px;
+    margin-top: 1em;
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.container-main {  
+    padding-bottom: 38px;
+}
+
+.social-region { 
+    a {
+        margin: 15px 20px 0px 0px;
+        font-size: 1.25em;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+/***
+    Footer
+***/
+
+.contact {
+    background: $white;
+    border-top: 1px solid #EEE;
+    
+    // TODO: remove btn box-shadows (through bootstrap variables)
+    a:focus, a:active:focus {
+        box-shadow: none!important;
+    }
+}
+
+.footer-navigation {
+    background-color: $theme-grayish;
+    padding-bottom: 20px;
+    border-top: 3px solid $theme-darker-gray;
+
+    h2 {
+        margin: 0 0 5px;
+        padding: 30px 0 5px;
+        color: $theme-dark-gray;
+        font-size: 1.5em;
+        font-weight: 400;
+        border-bottom: 1px solid $theme-uppermid-gray;
+    }
+
+    ul {
+        padding: 0;
+        li {
+            list-style: none;
+            a {
+                display: block;
+                padding: 2px 0 10px;
+                color: $theme-dark-gray;
+                font-size: 1em;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+/***
+    Subject list
+***/
+
+.subject-list {
+    columns: 2;
+}
+
+.subject-list, aside {
+    a {
+        position: relative;
+        padding-left: 30px;
+        display: block;
+
+        &::before {
+            content: "\ea3c";
+            font-family: icomoon;
+            font-size: 11px;
+            top: 4px;
+            left: 0;
+            position: absolute;
+            transition: left .3s ease;
+        }
+    
+        &:hover::before {
+            left: 5px;
+        }
+
+        &:active, &.active {
+            color: $black;
+            &::before {
+                left: 10px;
+            }
+        }
+    }
+}
+
+/* Default element extensions */
+table {
+    @extend .table;
+}
