@@ -56,31 +56,31 @@ p {
     line-height: 1.6rem;
     margin-bottom: 1rem;
 }
-blockquote p {
-    font-size: 1.2rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    padding: 1rem;
+blockquote {
     background-color: #0277BD;
-    color: #ffffff;
 }
 /* Nested blockquotes *?
-blockquote blockquote p {
-    font-size: 1.2rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    margin-left: 2rem;
-    padding: 1rem;
-    background-color: #0277BD;
-    color: #ffffff;
-}
 blockquote blockquote blockquote p {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 1.8rem;
     margin-left: 3rem;
     padding: 1rem;
-    background-color: #0277BD;
+    color: #ffffff;
+}
+blockquote blockquote p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    margin-left: 2rem;
+    padding: 1rem;
+    color: #ffffff;
+}
+blockquote p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    padding: 1rem;
     color: #ffffff;
 }
 ul, ol {
