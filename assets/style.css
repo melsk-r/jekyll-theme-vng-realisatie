@@ -1,7 +1,5 @@
 body {
     font-size: 100%;
-}
-* {
     font-family: 'Montserrat', sans-serif;
     color: #424242;
     line-height: 1rem;
@@ -63,6 +61,23 @@ blockquote p {
     font-weight: 500;
     line-height: 1.8rem;
     padding: 1rem;
+    background-color: #0277BD;
+    color: #ffffff;
+}
+/* Nested blockquotes *?
+blockquote blockquote p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    padding: 2rem;
+    background-color: #0277BD;
+    color: #ffffff;
+}
+blockquote blockquote blockquote p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    padding: 3rem;
     background-color: #0277BD;
     color: #ffffff;
 }
