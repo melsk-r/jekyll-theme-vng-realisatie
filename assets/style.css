@@ -161,7 +161,7 @@ em {
 .hljs-attr {
     color: #fff;
 }
-div.language-javascript.highlighter-rouge div.highlight pre.highlight span.kd code {
+div.language-javascript.highlighter-rouge div.highlight pre.highlight code span.kd {
     color: magenta;
 }
 code > span {
