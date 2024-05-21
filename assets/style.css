@@ -164,6 +164,15 @@ em {
 div.language-javascript.highlighter-rouge div.highlight pre.highlight code span.kd {
     color: magenta;
 }
+div.language-javascript.highlighter-rouge div.highlight pre.highlight code span.p {
+    color: red;
+}
+div.language-javascript.highlighter-rouge div.highlight pre.highlight code span.nx {
+    color: orange;
+}
+div.language-javascript.highlighter-rouge div.highlight pre.highlight code span.k {
+    color: blue;
+}
 code > span {
     color: #000;
 }
