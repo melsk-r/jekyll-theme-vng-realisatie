@@ -56,16 +56,16 @@ p {
     line-height: 1.6rem;
     margin-bottom: 1rem;
 }
-blockquote {
-    background-color: #0277BD;
-}
-/* Nested blockquotes *?
+/* blockquote {
+}*/
+/* Nested blockquotes */
 blockquote blockquote blockquote p {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 1.8rem;
     margin-left: 3rem;
     padding: 1rem;
+    background-color: #0277BD;
     color: #ffffff;
 }
 blockquote blockquote p {
@@ -74,6 +74,7 @@ blockquote blockquote p {
     line-height: 1.8rem;
     margin-left: 2rem;
     padding: 1rem;
+    background-color: #0277BD;
     color: #ffffff;
 }
 blockquote p {
@@ -81,6 +82,7 @@ blockquote p {
     font-weight: 500;
     line-height: 1.8rem;
     padding: 1rem;
+    background-color: #0277BD;
     color: #ffffff;
 }
 ul, ol {
