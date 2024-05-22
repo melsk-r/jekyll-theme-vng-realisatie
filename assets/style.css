@@ -168,11 +168,11 @@ em {
 .hljs-attr {
     color: #fff;
 }
+span.kd + span.nx {
+    color: #013E7A;
+}
 div.language-javascript.highlighter-rouge div.highlight pre.highlight code span.kd {
     color: #0023FF;
-}
-div.language-javascript.highlighter-rouge div.highlight pre.highlight code span.kd + div.language-javascript.highlighter-rouge div.highlight pre.highlight code span.nx {
-    color: #013E7A;
 }
 div.language-javascript.highlighter-rouge div.highlight pre.highlight code span.nx {
     color: #4D926C;
