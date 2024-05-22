@@ -57,7 +57,8 @@ p {
     margin-bottom: 1rem;
 }
  blockquote {
-    background-color: #0277BD;
+/*    background-color: #0277BD; */
+    background-color: #b3e5fc;  /*Background color for the blockquote (Same as table headings) */
 }
 /* Nested blockquotes */
 blockquote blockquote blockquote p {
@@ -191,3 +192,18 @@ code > span {
     padding: 0.2em 0.4em; /* Add padding around the code */
     border-radius: 3px; /* Add rounded corners */
 }
+/* Style blocks of code-text between triple backticks*/
+pre {
+    font-family: "Lucida Console", monospace; /* Specify a monospaced font */
+    font-size: 1rem; /* Set the font size */
+    background-color: #f4f4f4; /* Background color for the code block */
+    padding: 10px; /* Padding around the code block */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    white-space: pre-wrap; /* Preserve line breaks */
+}
+code {
+    font-family: "Lucida Console", monospace; /* Specify a monospaced font */
+    font-size: 1rem; /* Set the font size */
+    background-color: #f4f4f4; /* Background color for the code block */
+} 
