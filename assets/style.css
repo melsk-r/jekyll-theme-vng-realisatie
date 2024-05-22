@@ -169,16 +169,22 @@ em {
     color: #fff;
 }
 div.language-javascript.highlighter-rouge div.highlight pre.highlight code span.kd {
-    color: magenta;
+    color: #0023FF;
 }
-div.language-javascript.highlighter-rouge div.highlight pre.highlight code span.p {
-    color: red;
+div.language-javascript.highlighter-rouge div.highlight pre.highlight code span.kd + div.language-javascript.highlighter-rouge div.highlight pre.highlight code span.nx {
+    color: #013E7A;
 }
 div.language-javascript.highlighter-rouge div.highlight pre.highlight code span.nx {
-    color: orange;
+    color: #4D926C;
+}
+div.language-javascript.highlighter-rouge div.highlight pre.highlight code span.kc {
+    color: #435DFF;
+}
+div.language-javascript.highlighter-rouge div.highlight pre.highlight code span.mh {
+    color: #013E7A;
 }
 div.language-javascript.highlighter-rouge div.highlight pre.highlight code span.k {
-    color: blue;
+    color: #0023FF;
 }
 code > span {
     color: #000;
