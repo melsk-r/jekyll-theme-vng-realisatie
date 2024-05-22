@@ -66,8 +66,10 @@ blockquote blockquote blockquote p {
     line-height: 1.8rem;
     margin-left: 3rem;
     padding: 1rem;
-    background-color: #0277BD;
-    color: #ffffff;
+/*    background-color: #0277BD;
+    color: #ffffff;  */
+    background-color: #b3e5fc;  /*Background color for the blockquote (Same as table headings) */
+    color: #1a237e; /*Text color for the blockqoutes (Same as table headings) */
 }
 blockquote blockquote p {
     font-size: 1.2rem;
@@ -75,16 +77,20 @@ blockquote blockquote p {
     line-height: 1.8rem;
     margin-left: 2rem;
     padding: 1rem;
-    background-color: #0277BD;
-    color: #ffffff;
+/*    background-color: #0277BD;
+    color: #ffffff;  */
+    background-color: #b3e5fc;  /*Background color for the blockquote (Same as table headings) */
+    color: #1a237e; /*Text color for the blockqoutes (Same as table headings) */
 }
 blockquote p {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 1.8rem;
     padding: 1rem;
-    background-color: #0277BD;
-    color: #ffffff;
+/*    background-color: #0277BD;
+    color: #ffffff;  */
+    background-color: #b3e5fc;  /*Background color for the blockquote (Same as table headings) */
+    color: #1a237e; /*Text color for the blockqoutes (Same as table headings) */
 }
 ul, ol {
     margin: 0 0 1rem -1rem;
@@ -175,4 +181,13 @@ div.language-javascript.highlighter-rouge div.highlight pre.highlight code span.
 }
 code > span {
     color: #000;
+}
+/* Style text between backticks in normal text*/
+ p code {
+    font-family: 'Courier New', Courier, monospace; /* Specify a monospaced font */
+    font-size: 0.9em; /* Set the font size */
+    color: #333; /* Set the text color */
+    background-color: #f4f4f4; /* Set the background color */
+    padding: 0.2em 0.4em; /* Add padding around the code */
+    border-radius: 3px; /* Add rounded corners */
 }
